@@ -1,11 +1,11 @@
 # gpt-tokenizer
-This is just a simple repo done in order to replicate the tokenizer of OpenAI's GPT.
+This is just a very simple implementation of the tokenizer of OpenAI's GPT. The idea was taken from https://www.youtube.com/watch?v=zduSFxRajkE
 
 ## Implemented
 
-A version of a simple tokenizer that applies the BPE algorithm over the bytes directly.
+- A version of a simple tokenizer that applies the BPE algorithm over the bytes directly.
 
-A version of a regex tokenizer that applies the same pattern used in GPT4 and applies the BPE algorithm over the splits.
+- A version of a regex tokenizer that applies the same pattern used in GPT4 and then applies the BPE algorithm over the splits.
 
 ## Not Implemented
 
